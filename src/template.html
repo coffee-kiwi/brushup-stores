@@ -1,11 +1,250 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brush Up Stores</title>
+    <meta name="description" content="Brush Up Hair is a walk-in haircut specialist in Asahikawa. No appointment needed. Standard haircuts are ¥1,700, with weekday discounts for kids and seniors at ¥1,300.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&family=Space+Mono:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+
+    </style>
   </head>
   <body>
-    <h1>test</h1>
+
+    <header>
+      <img class="store-logo" src="../img/logo.jpg" alt="store logo containing the words, Brush Up Stores">
+      <a class="scroll-cue" href="#top-nav" aria-label="Scroll down to continue">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </header>
+
+    <nav id="top-nav" class="nav">
+        <img class="nav-logo" src="../img/logo.jpg" alt="store logo containing the words, Brush Up Stores">
+        <div class="navlinks">
+          <div class="navmid">
+            <a href="#menu">Cuts</a>
+            <a href="#hours">Store hours</a>
+            <a href="#access">Location</a>
+          </div>
+          <a class="ig-btn" href="https://www.instagram.com/make_u_happy916/" target="_blank" rel="noopener">
+            <!-- <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg> -->
+            <img src="../img/instagram.svg" alt="Instagram icon" width="50" height="50"></a>
+        </div>
+    </nav>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+
+        <!-- <div class="wrap hero-grid">
+          <div>
+            <span class="eyebrow"><span class="dot"></span>NO APPOINTMENT NEEDED · WALK-INS WELCOME</span>
+            <h1>Walk in, <span class="accent">get a cut</span>, <span class="underline">and you’re done.</span></h1>
+            <p class="lead">Brush Up Hair is a haircut specialist in Asahikawa. No phone calls or online bookings needed—just walk in, wait your turn, and enjoy a simple, easy haircut.</p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#menu">View Prices</a>
+              <a class="btn btn-ghost" href="#access">Access</a>
+            </div>
+          </div>
+        </div> -->
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section id="how">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="kicker">HOW IT WORKS</span>
+            <h2>Just three simple steps.</h2>
+            <p>No phone calls and no online booking forms. Just come to the shop, wait your turn, and get your haircut. That’s it.</p>
+          </div>
+          <div class="steps">
+            <div class="step reveal">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+              <span class="step-tag">STEP 01</span>
+              <h3>Walk In</h3>
+              <p>No appointment needed. Simply stop by anytime during opening hours.</p>
+            </div>
+            <div class="step reveal">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+              <span class="step-tag">STEP 02</span>
+              <h3>Wait Your Turn</h3>
+              <p>If we’re busy, you can wait nearby or in your car. We’ll let you know when it’s your turn.</p>
+            </div>
+            <div class="step reveal">
+              <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></svg>
+              <span class="step-tag">STEP 03</span>
+              <h3>Get Your Haircut</h3>
+              <p>We’ll give you a quick, careful cut. Once you’re finished, simply pay and you’re all done.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section id="menu">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="kicker">MENU / PRICE</span>
+            <h2>Simple, straightforward pricing.</h2>
+            <p>We specialize in haircuts only. Our standard price is the same for everyone, with weekday discounts for kids and seniors.</p>
+          </div>
+          <div class="price-board reveal">
+            <div class="price-board-head">
+              <svg class="comb" viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v4M8 4v4M12 4v4M16 4v4M20 4v4M4 8h16v4H4z"/><path d="M6 12v8M10 12v8M14 12v8M18 12v8"/></svg>
+              <h3>Brush Up Hair Menu</h3>
+            </div>
+            <div class="price-rows">
+              <div class="price-row">
+                <div>
+                  <span class="price-name">Standard Haircut</span>
+                  <div class="price-sub">Junior high school age and up · Available every day</div>
+                </div>
+                <div class="price-amount">¥1,700</div>
+              </div>
+              <div class="price-row">
+                <div>
+                  <span class="price-name">Kids & Seniors 65+</span><span class="price-tag">WEEKDAY DISCOUNT</span>
+                  <div class="price-sub">Ages 0 through the day before starting junior high school / Weekends & holidays: standard price ¥1,700</div>
+                </div>
+                <div class="price-amount">¥1,300</div>
+              </div>
+              <div class="price-row">
+                <div>
+                  <span class="price-name">Buzz Cut / Two-Block Only</span><span class="price-tag any">ANY DAY</span>
+                  <div class="price-sub">曜日を問わず、ANY DAYこの価格</div>
+                </div>
+                <div class="price-amount">¥1,300</div>
+              </div>
+            </div>
+            <div class="price-foot">
+              <div class="price-foot-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+                Credit cards & QR payments accepted
+              </div>
+              <div class="price-foot-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+                オプションはANY DAY対応可能
+              </div>
+              <div class="price-foot-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--yellow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.3"/></svg>
+                When busy, you can wait nearby or in your car
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOURS -->
+      <section id="hours">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="kicker">HOURS</span>
+            <h2>Hours</h2>
+          </div>
+          <div class="hours-wrap">
+            <table class="hours reveal">
+              <tr><td>Weekdays (Mon–Fri)</td><td>9:00 - 18:30</td></tr>
+              <tr><td>Saturday</td><td>9:00 - 17:00</td></tr>
+              <tr><td>Sunday & Public Holidays</td><td>9:00 - 15:00</td></tr>
+            </table>
+            <div class="notice reveal">
+              <h3>Our days off change each month</h3>
+              <p>Brush Up Hair’s days off vary from month to month. Please check our latest opening calendar on Instagram before visiting.</p>
+              <a class="btn" href="https://www.instagram.com/make_u_happy916/" target="_blank" rel="noopener">Check Opening Days on Instagram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ACCESS -->
+      <section id="access">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="kicker">ACCESS</span>
+            <h2>Access</h2>
+          </div>
+          <div class="access-grid">
+            <div class="addr-card reveal">
+              <div class="addr-row">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--red)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.3"/></svg>
+                <div>
+                  <div class="label">Address</div>
+                  <div class="val">〒070-0039<br>9-jo 16-chome 24-473, Asahikawa, Hokkaido</div>
+                </div>
+              </div>
+              <div class="addr-row">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+                <div>
+                  <div class="label">Hours</div>
+                  <div class="val">Mon–Fri 9:00–18:30 / Sat 9:00–17:00 / Sun & Holidays 9:00–15:00</div>
+                </div>
+              </div>
+              <div class="addr-row">
+                <svg viewBox="0 0 24 24" fill="none" stroke="var(--ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="var(--ink)" stroke="none"/></svg>
+                <div>
+                  <div class="label">Instagram</div>
+                  <a class="val" href="https://www.instagram.com/make_u_happy916/" target="_blank" rel="noopener">@make_u_happy916</a>
+                </div>
+              </div>
+              <div style="margin-top:22px;">
+                <a class="btn btn-primary" style="width:100%; justify-content:center;" href="https://www.google.com/maps/place/Brush+up+Stores/@43.7707964,142.3771175,19z/data=!3m1!4b1!4m6!3m5!1s0x5f0ce7f96d5d7889:0xb6bbfc9ca90c7adc!8m2!3d43.7707954!4d142.3777612!16s%2Fg%2F11yh1n9rp9" target="_blank" rel="noopener">
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z"/><circle cx="12" cy="9" r="2.3"/></svg>
+                  View on Google Maps
+                </a>
+              </div>
+            </div>
+            <div class="map-illust reveal">
+              <svg viewBox="0 0 200 200" fill="none">
+                <circle cx="100" cy="100" r="96" stroke="var(--ivory)" stroke-width="2" stroke-dasharray="4 6" opacity="0.4"/>
+                <path d="M100 40C78 40 62 57 62 79c0 32 38 79 38 79s38-47 38-79c0-22-16-39-38-39z" fill="var(--yellow)" stroke="var(--ink)" stroke-width="3"/>
+                <circle cx="100" cy="79" r="15" fill="var(--ivory)" stroke="var(--ink)" stroke-width="3"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <div class="foot-logo">Brush Up Hair</div>
+            <p class="foot-desc">A walk-in haircut specialist in Asahikawa. No appointment needed—just come in and wait your turn.</p>
+          </div>
+          <div class="foot-links">
+            <div class="foot-col">
+              <h4>MENU</h4>
+              <a href="#menu">Prices</a>
+              <a href="#hours">Hours</a>
+              <a href="#access">Access</a>
+            </div>
+            <div class="foot-col">
+              <h4>CONTACT</h4>
+              <a href="https://www.instagram.com/make_u_happy916/" target="_blank" rel="noopener">Instagram</a>
+              <p>9-jo 16-chome 24-473, Asahikawa, Hokkaido</p>
+            </div>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>&copy; 2026 Brush Up Hair</span>
+          <span>No appointments · Walk-ins only</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const els = document.querySelectorAll('.reveal');
+      const io = new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{
+          if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); }
+        });
+      }, {threshold:0.12});
+      els.forEach(el=>io.observe(el));
+    </script>
+
   </body>
 </html>

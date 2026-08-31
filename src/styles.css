@@ -14,7 +14,9 @@
   html{scroll-behavior:smooth;}
 
   /* Display flex and center */
-  header {
+  header,
+  .quick-location,
+  .location-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +35,64 @@ header {
 .nav-logo {
   max-height: 80%;
 }
+
+.quick-location {
+  gap: 1rem;
+}
+
+.location-top {
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.side-location,
+.card {
+  width: 80vw;
+  /* height: 40vh; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  border: #5B5D63 solid 1px;
+  box-shadow: 8px 8px 8px #5B5D63;
+}
+
+#outside-front {
+  height: 80%;
+  width: auto;
+}
+
+.hairstyles {
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  grid-template-columns: 1fr;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 10% 1fr;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+img .arrow-icon {
+  max-width: 10vw;
+}
+
+/* @media screen and (min-width: 500px) {
+  
+  .hairstyles {
+    grid-template-columns: 1fr 10px 1fr;
+  }
+} */
 
 
 
@@ -128,12 +188,14 @@ body{
   .navlinks a:hover{color:var(--red);}
   .ig-btn{
     display:flex; align-items:center; gap:8px;
-    background:var(--ink); color:var(--ivory);
+    /* background:var(--ink); color:var(--ivory); */
     padding:9px 16px; border-radius:100px;
     font-size:13px; font-weight:700;
-    transition:transform .15s ease, background .15s ease;
+    transition: transform .25s ease;
   }
-  .ig-btn:hover{background:var(--red); transform:translateY(-2px);}
+  .ig-btn:hover {
+    transform:translateY(-2px);
+  }
   .navlinks .navmid{display:flex; gap:28px;}
   @media(max-width:760px){
     .navmid{display:none;}
@@ -277,7 +339,7 @@ body{
   .barcode span{background:var(--ink); width:3px;}
 
   /* ---------- Section shell ---------- */
-  section{padding:76px 0;}
+  section{padding:12px 0;}
   .section-head{margin-bottom:44px; max-width:620px;}
   .kicker{
     font-size:13px; font-weight:700; letter-spacing:0.1em;

@@ -391,19 +391,6 @@ img .arrow-icon {
   align-items: center;
 }
 
-  /* .content {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    min-height:610px;
-    padding:36px 28px 30px;
-    background:var(--ivory);
-    border:5px solid var(--ink);
-    border-radius:30px;
-    box-shadow:0 8px 0 var(--ink);
-    text-align:center;
-  } */
-
 .ryo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -451,14 +438,16 @@ img .arrow-icon {
   border-radius: 10px;
  }
 
+ .renovations {
+  margin-top: 24px;
+  margin-bottom: 24px;
+ }
+
  .content {
-  /* height: auto; */
   display: grid;
-  /* flex-direction: column; */
-  /* grid-template-rows: 0.5fr 0.5fr; */
-  width: min(1200px, 80%);
+  width: min(1200px, 60%);
   padding: 8px;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
   background:var(--ivory);
   border:5px solid var(--ink);
   border-radius:30px;
@@ -466,30 +455,78 @@ img .arrow-icon {
   text-align:center;
   gap: 12px;
  }
+
+ .across {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+ }
+
+ .across img {
+  width: 100%;
+  object-fit: cover;
+  min-width: 0;
+  border-radius: 10px;
+ }
+
  .content img {
   width: 100%;
+  max-height: 600px;
   /* height: 350px; */
   object-fit: cover;
   border-radius: 10px;
+  margin: 0 auto;
+  padding: 12px;
+ }
+
+ .content p {
+  margin: 18px;
  }
 
  .story,
  .diy {
-  width: 100%;
+  /* width: 100%; */
  }
 
  .diy {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 32px;
+  align-items: stretch;
+  gap: 12px;
  }
 
  .story {
-  /* max-width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
+ }
+
+ /* .divider {
+  width: 90%;
+  color: black;
+  height: 8px;
+  border-top: 10px inset var(--ink);
+  margin: 32px 0;
+ } */
+
+ .ivory-container,
+ .blue-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  gap: 12px;
+  /* width: 100%; */
+ }
+ .ivory-container {
+  background-color: var(--ivory);
+ }
+
+ .blue-container {
+  background-color: var(--hero-blue);
+
  }
 
  h1 {
@@ -498,6 +535,10 @@ img .arrow-icon {
 
  h2 {
   font-size: clamp(1.5rem, 4vw, 3rem)
+ }
+
+ p {
+  font-size: clamp(1rem, 3vw, 1.5rem);
  }
 
 
@@ -576,8 +617,14 @@ body{
     backdrop-filter:blur(8px);
     border-bottom:2px solid var(--ink);
     height: 10vh;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     /* width: 100vw; */
   }
+
+  .navlinks {
+    
+  }
+
   .nav{
     display:flex; 
     align-items:center; 
@@ -593,7 +640,13 @@ body{
     font-size:20px; font-weight:900;
   }
   .logo .scissor{width:26px; height:26px; flex-shrink:0;}
-  .navlinks{display:flex; align-items:center; gap:28px; font-size:14px; font-weight:700;}
+  .navlinks {
+    display:flex; 
+    align-items:center; 
+    gap:28px; 
+    font-size: clamp(1.5rem, 3vw, 1.8rem); 
+    font-weight:700;}
+
   .navlinks a{position:relative; padding:4px 0;}
   .navlinks a:hover{color:var(--red);}
   .ig-btn{

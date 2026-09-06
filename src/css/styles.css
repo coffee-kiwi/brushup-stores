@@ -449,7 +449,7 @@ img .arrow-icon {
   padding: 8px;
   margin-bottom: 8px;
   background:var(--ivory);
-  border:5px solid var(--ink);
+  border: 5px solid var(--ink);
   border-radius:30px;
   box-shadow:0 8px 0 var(--ink);
   text-align:center;
@@ -486,7 +486,7 @@ img .arrow-icon {
 
  .story,
  .diy {
-  /* width: 100%; */
+  width: 100%;
  }
 
  .diy {

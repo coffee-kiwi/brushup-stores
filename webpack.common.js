@@ -7,13 +7,19 @@ const __dirname = path.dirname(__filename);
 
 export default {
   entry: {
-    app: "./src/index.js",
+    app: "./src/js/index.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Production",
-      template: "./src/template.html",
+      title: "Homepage",
+      template: "./src//pages/index.html",
+      filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      title: "About Us",
+      template: "./src/pages/about-us.html",
+      filename: "about-us/index.html",
+    })
   ],
   devtool: "eval-source-map",
   devServer: {

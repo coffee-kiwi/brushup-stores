@@ -27,6 +27,12 @@
         src="../assets/icons/logo1_transparent.png" 
         alt="Brush Up Storesのロゴ"
         >
+
+        <div class="lang-switcher">
+          <button type="button" data-lang-choice="ja">日本語</button>
+          <span>/</span>
+          <button type="button" data-lang-choice="en">EN</button>
+        </div>
         
         <button 
           class="hamburger"
@@ -41,10 +47,10 @@
         </button>
         <div class="navlinks" id="nav-menu">
           <div class="navmid">
-            <a href="#menu">メニュー</a>
-            <a href="#hours">営業時間</a>
-            <a href="#access">アクセス</a>
-            <a href="./about-us/">お店について</a>
+            <a href="#menu" data-i18n="nav.menu"></a>
+            <a href="#hours" data-i18n="nav.hours"></a>
+            <a href="#access" data-i18n="nav.location"></a>
+            <a href="./about-us/" data-i18n="nav.about"></a>
           </div>
 
           <a 
@@ -89,13 +95,17 @@
             </span>
 
             <div class="menu-ribbon">
-              <h2 id="menu-title">メニュー</h2>
+              <h2 id="menu-title" data-i18n="menu.heading"></h2>
             </div>
 
             <span class="menu-rays menu-rays-right" aria-hidden="true">
               <i></i><i></i><i></i>
             </span>
+            
           </div>
+          <div class="store-message">
+            <h3 data-i18n="walk-in"></h3>
+          </div>  
 
           <div class="menu-cards">
             <article class="menu-price-card">
@@ -106,12 +116,9 @@
                 aria-hidden="true"
               >
 
-              <h3>一般（大人）</h3>
+              <h3 data-i18n="menu.regular.heading"></h3>
 
-              <p class="menu-description">
-                中学生以上の方、<br>
-                毎日この料金！
-              </p>
+              <p class="menu-description" data-i18n="menu.regular.detail"></p>
 
               <div class="menu-divider" aria-hidden="true"></div>
 
@@ -126,13 +133,9 @@
                 aria-hidden="true"
               >
 
-              <h3>キッズ・65才以上</h3>
+              <h3 data-i18n="menu.discount.heading"></h3>
 
-              <p class="menu-description">
-                0才から中学生になる<br>
-                前日までのお子様と、<br>
-                65才以上の方
-              </p>
+              <p class="menu-description" data-i18n="menu.discount.detail"></p>
 
               <div class="menu-divider" aria-hidden="true"></div>
 
@@ -157,12 +160,9 @@
                 aria-hidden="true"
               >
 
-              <h3>
-                丸刈り・<br>
-                ツーブロックのみ
-              </h3>
+              <h3 data-i18n="menu.buzz.heading"></h3>
 
-              <p class="menu-description">毎日この料金！</p>
+              <p class="menu-description" data-i18n="menu.buzz.detail"></p>
 
               <div class="menu-divider" aria-hidden="true"></div>
 
@@ -170,9 +170,9 @@
             </article>
           </div>
 
-          <p class="menu-note">
-            ※すべて税込価格です。&nbsp;&nbsp;
-            ※メニュー・料金は予告なく変更する場合がございます。
+          <p class="menu-note" data-i18n="menu.footer">
+            <!-- ※すべて税込価格です。&nbsp;&nbsp;
+            ※メニュー・料金は予告なく変更する場合がございます。 -->
           </p>
         </div>
       </section>
@@ -181,7 +181,7 @@
   <div class="location-inner">
 
     <div class="location-heading">
-      <h2>アクセス</h2>
+      <h2 data-i18n="nav.location"></h2>
     </div>
 
     <div class="location-grid">
@@ -201,17 +201,13 @@
       <div class="location-card">
         <h3>Brush Up Stores</h3>
         <img src="../assets/images/outside_1_wide.jpeg" alt="店舗の外観" id="outside-front">
-        <p class="location-address">
-          〒070-0039<br>
-          北海道旭川市9条通16丁目24-473
-        </p>
+        <p class="location-address" data-i18n="location.address"></p>
 
         <a
           class="location-map-button"
           href="https://maps.app.goo.gl/r3s4brdBbsNuGYCR6"
           target="_blank"
-          rel="noopener noreferrer">
-          GOOGLE MAPSで見る
+          rel="noopener noreferrer" data-i18n="location.link">
           <span aria-hidden="true">▶</span>
         </a>
       </div>
@@ -340,7 +336,7 @@
               </span>
 
               <div class="hours-ribbon">
-                <h2>営業時間</h2>
+                <h2 data-i18n="hours.heading"></h2>
               </div>
 
               <span class="hours-heading-rays hours-heading-rays--right" aria-hidden="true">
@@ -363,7 +359,7 @@
                 <div class="hours-row">
                   <div class="hours-day hours-day--weekday">
                     <span class="hours-dot"></span>
-                    <span>月〜金</span>
+                    <span data-i18n="hours.weekdays"></span>
                   </div>
 
                   <div class="hours-time">
@@ -376,7 +372,7 @@
                 <div class="hours-row">
                   <div class="hours-day hours-day--saturday">
                     <span class="hours-dot"></span>
-                    <span>土曜日</span>
+                    <span data-i18n="hours.sat"></span>
                   </div>
 
                   <div class="hours-time">
@@ -389,7 +385,7 @@
                 <div class="hours-row">
                   <div class="hours-day hours-day--holiday">
                     <span class="hours-dot"></span>
-                    <span>日曜・祝日</span>
+                    <span data-i18n="hours.sun"></span>
                   </div>
 
                   <div class="hours-time">
@@ -414,8 +410,8 @@
               </div>
 
               <div class="hours-instagram-text">
-                <strong>店休日は月によって変更になる場合があります。</strong>
-                <span>最新の営業カレンダーはInstagramをご確認ください。</span>
+                <strong data-i18n="hours.link.bold"></strong>
+                <span data-i18n="hours.link.regular"></span>
               </div>
 
               <span class="hours-instagram-arrow" aria-hidden="true">▶</span>
@@ -479,17 +475,17 @@
         <div class="foot-grid">
           <div>
             <div class="foot-logo">Brush up Stores</div>
-            <p class="foot-desc">旭川市の予約不要・カット専門店です。ご予約なしで、そのままご来店いただけます。</p>
+            <p class="foot-desc" data-i18n="walk-in"></p>
           </div>
           <div class="foot-links">
-            <div class="foot-col">
+            <!-- <div class="foot-col">
               <h4>メニュー</h4>
               <a href="#menu">料金</a>
               <a href="#hours">営業時間</a>
               <a href="#access">アクセス</a>
-            </div>
+            </div> -->
 
-            <div class="foot-col">
+            <!-- <div class="foot-col">
               <h4>お問い合わせ</h4>
               <a
                 href="https://www.instagram.com/make_u_happy916/"
@@ -499,37 +495,36 @@
                 Instagram
               </a>
               <p>〒070-0039 北海道旭川市9条通16丁目24-473</p>
-            </div>
+            </div> -->
 
             <div class="foot-col icon-credits">
-              <h4>クレジット</h4>
+              <h4>Attributions</h4>
               <a
                 href="https://www.flaticon.com/free-icon/clipper_3331475"
                 target="_blank"
                 rel="noopener noreferrer"
+                data-i18n="attributions.scissors"
               >
-                バリカンアイコン：Freepik - Flaticon
               </a>
               <a
                 href="https://www.flaticon.com/free-icon/baby-boy_3282468"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                キッズアイコン：Freepik - Flaticon
+                data-i18n="attributions.child"
+              >  
               </a>
               <a
                 href="https://www.flaticon.com/free-icon/scissors_2542051"
                 target="_blank"
                 rel="noopener noreferrer"
+                data-i18n="attributions.clipper"
               >
-                ハサミアイコン：Freepik - Flaticon
               </a>
             </div>
           </div>
         </div>
         <div class="foot-bottom">
           <span>&copy; 2026 Brush up Stores</span>
-          <!-- <span>No appointments · Walk-ins only</span> -->
         </div>
       </div>
     </footer>

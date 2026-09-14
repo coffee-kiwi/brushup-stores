@@ -1,0 +1,45 @@
+{
+    "nav": {
+        "menu": "メニュー",
+        "hours": "営業時間",
+        "location": "アクセス",
+        "about": "お店について",
+        "home": "ホーム"
+    }, 
+    "menu": {
+        "heading": "メニュー",
+        "regular": {
+            "heading": "一般（大人）",
+            "detail": "中学生以上の方、毎日この料金！"
+        },
+        "discount": {
+            "heading": "キッズ・65才以上",
+            "detail": "0才から中学生になる前日までのお子様と、65才以上の方"
+        },
+        "buzz": {
+            "heading": "丸刈り・ツーブロックのみ",
+            "detail": "毎日この料金！"
+        },
+        "footer": "※すべて税込価格です。"
+    },
+    "location": {
+        "address": "〒070-0039北海道旭川市9条通16丁目24-473",
+        "link": "Google Mapsで見る"
+    },
+    "hours": {
+        "heading": "営業時間",
+        "weekdays": "月〜金",
+        "sat": "土曜日",
+        "sun": "日曜・祝日",
+        "link": {
+            "bold": "店休日は月によって変更になる場合があります。",
+            "regular": "最新の営業カレンダーはInstagramをご確認ください。"
+        }
+    },
+    "attributions": {
+        "scissors": "ハサミアイコン：Freepik - Flaticon",
+        "child": "キッズアイコン：Freepik - Flaticon",
+        "clipper": "バリカンアイコン：Freepik - Flaticon"
+    },
+    "walk-in": "予約は不要です。そのままお越しください。"
+}

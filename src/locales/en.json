@@ -1,0 +1,45 @@
+{
+    "nav": {
+        "menu": "Cuts",
+        "hours": "Store hours",
+        "location": "Location",
+        "about": "About Us",
+        "home": "Home"
+    }, 
+    "menu": {
+        "heading": "Menu",
+        "regular": {
+            "heading": "Adult",
+            "detail": "Junior high school students and above"
+        },
+        "discount": {
+            "heading": "Kids・Seniors",
+            "detail": "Kids from 0 years until Junior High School、65years and older"
+        },
+        "buzz": {
+            "heading": "Buzz cuts and Two-Block cuts only",
+            "detail": "Same simple price every day!"
+        },
+        "footer": "※All prices include tax."
+    },
+    "location": {
+        "address": "〒070-0039 Hokkaido, Asahikawa City, 9Jo-Dori 16Chome 24-473",
+        "link": "Find us on Google Maps"
+    },
+    "hours": {
+        "heading": "Store hours",
+        "weekdays": "Mon - Fri",
+        "sat": "Saturdays",
+        "sun": "Sundays and Holidays",
+        "link": {
+            "bold": "Business days change depending on the month.",
+            "regular": "Please check Instagram for monthly business calendar."
+        }
+    },
+    "attributions": {
+        "scissors": "Scissors icon：Freepik - Flaticon",
+        "child": "Kids' Icon：Freepik - Flaticon",
+        "clipper": "Hair clipper icon：Freepik - Flaticon"
+    },
+    "walk-in": "No appointment required, just walk in and take a seat."
+}

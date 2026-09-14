@@ -1,72 +1,73 @@
 {
-    "nav": {
-        "menu": "Cuts",
-        "hours": "Store hours",
-        "location": "Location",
-        "about": "About Us",
-        "home": "Home"
-    }, 
-    "menu": {
-        "heading": "Menu",
-        "regular": {
-            "heading": "Adults",
-            "detail": "Junior high school students and above"
-        },
-        "discount": {
-            "heading": "Kids・Seniors",
-            "detail": "Children from age 0 until entering junior high school、and adults aged 65 and over"
-        },
-        "buzz": {
-            "heading": "Buzz cuts and Two-Block cuts only",
-            "detail": "Same simple price every day!"
-        },
-        "footer": "※All prices include tax."
+  "nav": {
+    "menu": "Cuts",
+    "hours": "Store hours",
+    "location": "Location",
+    "about": "About Us",
+    "home": "Home",
+    "toggle": "Navigation menu"
+  },
+  "menu": {
+    "heading": "Menu",
+    "regular": {
+      "heading": "Adults",
+      "detail": "Junior high school students and above"
     },
-    "location": {
-        "address": "〒070-0039 Hokkaido, Asahikawa City, 9Jo-Dori 16Chome 24-473",
-        "link": "Find us on Google Maps"
+    "discount": {
+      "heading": "Kids・Seniors",
+      "detail": "Children from age 0 until entering junior high school、and adults aged 65 and over",
+      "weekday": "Weekdays",
+      "holiday": "Weekends & holidays"
     },
-    "hours": {
-        "heading": "Store hours",
-        "weekdays": "Mon - Fri",
-        "sat": "Saturday",
-        "sun": "Sunday and Holidays",
-        "link": {
-            "bold": "Business days change depending on the month.",
-            "regular": "Please check Instagram for monthly business calendar."
-        }
+    "buzz": {
+      "heading": "Buzz cuts and Two-Block cuts only",
+      "detail": "Same simple price every day!"
     },
-    "attributions": {
-        "scissors": "Scissors icon：Freepik - Flaticon",
-        "child": "Kids' Icon：Freepik - Flaticon",
-        "clipper": "Hair clipper icon：Freepik - Flaticon"
-    },
-    "walk-in": "No appointment required, just walk in.",
-    "about-us": {
-        "top": {
-            "title": "About Us",
-            "heading": "Hi, I'm Ryo!",
-            "intro": "I'm the owner of Brush Up Stores. I'm a barber with decades of experience in both Australia and Japan. Thanks for visiting my website. I hope you'll drop by in person someday!"
-        },
-        "diy": {
-            "heading": "The Beginning",
-            "heading-detail": "Brush Up Stores started as a large DIY project.",
-            "start": "This is where Brush Up Stores began. When I first purchased the property, both the interior and exterior were in a state that required extensive renovation. From there, I started renovating it myself!",
-            "before-after": {
-                "center-b": "I started by removing parts of the interior, including the walls and floors.",
-                "center-a": "Now it's a relaxing space where you can sit back and enjoy your haircut!",
-                "waiting-b": "I wanted to create a space where customers visiting with children could feel comfortable too.",
-                "waiting-a": "Here is the waiting area! There's also a space where children can play while they wait.",
-                "hallway-b": "The hallway also needed some work on it's flooring and overall appearance",
-                "hallway-a": "Now it has a simple, clean look."
-            },
-            "front": "This is the entrance. I designed it so you can see the whole shop as soon as you walk in. You can also pay easily at the self-checkout.",
-            "now": {
-                "detail": "It took a lot of time and work, but I am now very proud to call this place my first barbershop!",
-                "link": "I hope to see you at the shop someday!"
-            }
-            
-        }
-        
+    "footer": "※All prices include tax."
+  },
+  "location": {
+    "address": "〒070-0039 Hokkaido, Asahikawa City, 9Jo-Dori 16Chome 24-473",
+    "link": "Find us on Google Maps"
+  },
+  "hours": {
+    "heading": "Store hours",
+    "weekdays": "Mon - Fri",
+    "sat": "Saturday",
+    "sun": "Sunday and Holidays",
+    "link": {
+      "bold": "Business days change depending on the month.",
+      "regular": "Please check Instagram for monthly business calendar."
     }
+  },
+  "attributions": {
+    "scissors": "Scissors icon：Freepik - Flaticon",
+    "child": "Kids' Icon：Freepik - Flaticon",
+    "clipper": "Hair clipper icon：Freepik - Flaticon"
+  },
+  "walk-in": "No appointment required, just walk in.",
+  "about-us": {
+    "top": {
+      "title": "About Us",
+      "heading": "Hi, I'm Ryo!",
+      "intro": "I'm the owner of Brush Up Stores. I'm a barber with decades of experience in both Australia and Japan. Thanks for visiting my website. I hope you'll drop by in person someday!"
+    },
+    "diy": {
+      "heading": "The Beginning",
+      "heading-detail": "Brush Up Stores started as a large DIY project.",
+      "start": "This is where Brush Up Stores began. When I first purchased the property, both the interior and exterior were in a state that required extensive renovation. From there, I started renovating it myself!",
+      "before-after": {
+        "center-b": "I started by removing parts of the interior, including the walls and floors.",
+        "center-a": "Now it's a relaxing space where you can sit back and enjoy your haircut!",
+        "waiting-b": "I wanted to create a space where customers visiting with children could feel comfortable too.",
+        "waiting-a": "Here is the waiting area! There's also a space where children can play while they wait.",
+        "hallway-b": "The hallway also needed some work on its flooring and overall appearance.",
+        "hallway-a": "Now it has a simple, clean look."
+      },
+      "front": "This is the entrance. I designed it so you can see the whole shop as soon as you walk in. You can also pay easily at the self-checkout.",
+      "now": {
+        "detail": "It took a lot of time and work, but I am now very proud to call this place my first barbershop!",
+        "link": "I hope to see you at the shop someday!"
+      }
+    }
+  }
 }

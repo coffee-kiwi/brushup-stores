@@ -1,234 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brush Up Stores - About Us</title>
   </head>
 
-<body>
-
+  <body>
     <nav id="top-nav" class="nav">
-      
-        <img class="nav-logo" 
-        src="../assets/icons/logo1_transparent.png" 
+      <img
+        class="nav-logo"
+        src="../assets/icons/logo1_transparent.png"
         alt="store logo containing the words, Brush Up Stores"
+      />
+
+      <div class="lang-switcher">
+        <button type="button" data-lang-choice="ja">日本語</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-lang-choice="en">EN</button>
+      </div>
+
+      <button
+        class="hamburger"
+        type="button"
+        aria-label="ナビゲーションメニュー"
+        data-i18n-aria-label="nav.toggle"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navlinks" id="nav-menu">
+        <div class="navmid">
+          <a href="../#menu" data-i18n="nav.menu"></a>
+          <a href="../#hours" data-i18n="nav.hours"></a>
+          <a href="../#access" data-i18n="nav.location"></a>
+          <a href="../" data-i18n="nav.home"></a>
+        </div>
+
+        <a
+          class="ig-btn"
+          href="https://www.instagram.com/make_u_happy916/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-
-        <div class="lang-switcher">
-          <button type="button" data-lang-choice="ja">日本語</button>
-          <span>/</span>
-          <button type="button" data-lang-choice="en">EN</button>
-        </div>
-        
-        <button 
-          class="hamburger"
-          type="button"
-          aria-label="Open navigation menu"
-          aria-expanded="false"
-          aria-controls="nav-menu"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <div class="navlinks" id="nav-menu">
-          <div class="navmid">
-            <a href="../#menu" data-i18n="nav.menu"></a>
-            <a href="../#hours" data-i18n="nav.hours"></a>
-            <a href="../#access" data-i18n="nav.location"></a>
-            <a href="../" data-i18n="nav.home"></a>
-          </div>
-
-          <a 
-          class="ig-btn" 
-          href="https://www.instagram.com/make_u_happy916/" 
-          target="_blank" rel="noopener noreferrer"
-          >
-            <img src="../assets/icons/instagram.svg" 
-            alt="Instagram icon" 
-            width="50" 
+          <img
+            src="../assets/icons/instagram.svg"
+            alt="Instagram icon"
+            width="50"
             height="50"
-            >
-          </a>
-        </div>
+          />
+        </a>
+      </div>
     </nav>
 
     <main class="about-us">
-        <div class="blue-container">
-            <div class="top-banner">
-                <h1 data-i18n="about-us.top.title"></h1>
-            </div>
-            <article class="ryo">
-                <div class="ryo-left">
-                    <img src="../assets/images/about_me.jpg" alt="">
-                </div>
-                <div class="ryo-right">
-                    <h2 class="greeting"  data-i18n="about-us.top.heading"></h2>
-                    <p  data-i18n="about-us.top.intro"></p>
-                </div>
-            </article>
+      <div class="blue-container">
+        <div class="top-banner">
+          <h1 data-i18n="about-us.top.title"></h1>
+        </div>
+        <article class="ryo">
+          <div class="ryo-left">
+            <img src="../assets/images/about_me.jpg" alt="" />
+          </div>
+          <div class="ryo-right">
+            <h2 class="greeting" data-i18n="about-us.top.heading"></h2>
+            <p data-i18n="about-us.top.intro"></p>
+          </div>
+        </article>
+      </div>
+
+      <section class="story">
+        <div class="ivory-container">
+          <div class="top-banner">
+            <h2 data-i18n="about-us.diy.heading"></h2>
+            <p data-i18n="about-us.diy.heading-detail"></p>
+          </div>
         </div>
 
-        <section class="story">
-            <div class="ivory-container">
-                <div class="top-banner">
-                    <h2 data-i18n="about-us.diy.heading"></h2>
-                    <p data-i18n="about-us.diy.heading-detail"></p>
-                </div>
+        <section class="diy">
+          <div class="blue-container">
+            <div class="content">
+              <img
+                src="../assets/images/outside_before_front.jpg"
+                alt=""
+                class="content-img"
+              />
+              <p data-i18n="about-us.diy.start"></p>
             </div>
+          </div>
 
-            <section class="diy">
-                <div class="blue-container">
-                    <div class="content">
-                        <img src="../assets/images/outside_before_front.jpg" alt="" class="content-img">
-                        <p data-i18n="about-us.diy.start"></p>
-                    </div>
-                </div>
-
-                <div class="ivory-container">
-                    <div class="content">
-                        <img src="../assets/images/inside_before_1.jpg" alt="">
-                        <p data-i18n="about-us.diy.before-after.center-b"></p>
-                    </div>
-                    <img src="../assets/icons/down-arrow.png" alt="" class="down-arrow" width="100px" height="100px">
-                    <div class="content">
-                        <img src="../assets/images/inside_after_1.jpg" alt="">
-                        <p data-i18n="about-us.diy.before-after.center-a"></p>
-                    </div>
-                </div>
-
-                <!-- <div class="divider"></div> -->
-                <div class="blue-container">
-
-                    <div class="content">
-                        <img src="../assets/images/inside_before_2.jpg" alt="">
-                        <p data-i18n="about-us.diy.before-after.waiting-b"></p>
-                    </div>
-                    <img src="../assets/icons/down-arrow.png" alt="" class="down-arrow" width="100px" height="100px">
-                    <div class="content">
-                        <div class="across">
-                            <img src="../assets/images/inside_after_2.jpg" alt="">
-                            <img src="../assets/images/inside_after_4.jpg" alt="">
-                        </div>
-                        <p data-i18n="about-us.diy.before-after.waiting-a"></p>
-                    </div>
-                </div>
-
-                <!-- <div class="divider"></div> -->
-
-                <div class="ivory-container">
-                    <div class="content">
-                        <img src="../assets/images/inside_before_3.jpg" alt="">
-                        <p data-i18n="about-us.diy.before-after.hallway-b"></p>
-                    </div>
-                    <img src="../assets/icons/down-arrow.png" alt="" class="down-arrow" width="100px" height="100px">
-                    <div class="content">
-                        <img src="../assets/images/inside_after_3.jpg" alt="">
-                        <p data-i18n="about-us.diy.before-after.hallway-a"></p>
-                    </div>
-                </div>
-
-                <!-- <div class="divider"></div> -->
-
-                <div class="blue-container">
-                    <div class="content">
-                        <img src="../assets/images/inside_after_entrance.jpg" alt="">
-                        <p data-i18n="about-us.diy.front"></p>
-                    </div>
-                </div>
-
-                <!-- <div class="divider"></div> -->
-                <div class="ivory-container">
-                    <div class="content">
-                        <img src="../assets/images/outside_1.jpg" alt="">
-                        <p data-i18n="about-us.diy.now.detail"></p>
-
-                        <a 
-                            class="ig-btn" 
-                            href="https://www.instagram.com/make_u_happy916/" 
-                            target="_blank" rel="noopener noreferrer"
-                        >
-                            <img src="../assets/icons/instagram.svg" 
-                                alt="Instagram icon" 
-                                style="max-width: 100px;"
-                            >
-                        </a>
-                        <a
-                            class="location-map-button"
-                            href="https://maps.app.goo.gl/r3s4brdBbsNuGYCR6"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >
-                            <span data-i18n="about-us.diy.now.link"></span>
-                            <span aria-hidden="true">▶</span>
-                        </a>
-                    </div>
-                </div>
-
-            </section>
-        </section>
-</main>
-
-    <footer>
-      <!-- <div class="wrap"> -->
-        <!-- <div class="foot-grid" style="justify-content: stretch;"> -->
-          <!-- <div>
-            <div class="foot-logo">Brush up Stores</div>
-            <p class="foot-desc">A walk-in haircut specialist in Asahikawa. No appointment needed—just come in and wait your turn.</p>
-          </div> -->
-          <!-- <div class="foot-links">
-            <div class="foot-col">
-              <h4>MENU</h4>
-              <a href="#menu">Prices</a>
-              <a href="#hours">Hours</a>
-              <a href="#access">Access</a>
+          <div class="ivory-container">
+            <div class="content">
+              <img src="../assets/images/inside_before_1.jpg" alt="" />
+              <p data-i18n="about-us.diy.before-after.center-b"></p>
             </div>
+            <img
+              src="../assets/icons/down-arrow.png"
+              alt=""
+              class="down-arrow"
+              width="100"
+              height="100"
+            />
+            <div class="content">
+              <img src="../assets/images/inside_after_1.jpg" alt="" />
+              <p data-i18n="about-us.diy.before-after.center-a"></p>
+            </div>
+          </div>
 
-            <div class="foot-col">
-              <h4>CONTACT</h4>
+          <div class="blue-container">
+            <div class="content">
+              <img src="../assets/images/inside_before_2.jpg" alt="" />
+              <p data-i18n="about-us.diy.before-after.waiting-b"></p>
+            </div>
+            <img
+              src="../assets/icons/down-arrow.png"
+              alt=""
+              class="down-arrow"
+              width="100"
+              height="100"
+            />
+            <div class="content">
+              <div class="across">
+                <img src="../assets/images/inside_after_2.jpg" alt="" />
+                <img src="../assets/images/inside_after_4.jpg" alt="" />
+              </div>
+              <p data-i18n="about-us.diy.before-after.waiting-a"></p>
+            </div>
+          </div>
+
+          <div class="ivory-container">
+            <div class="content">
+              <img src="../assets/images/inside_before_3.jpg" alt="" />
+              <p data-i18n="about-us.diy.before-after.hallway-b"></p>
+            </div>
+            <img
+              src="../assets/icons/down-arrow.png"
+              alt=""
+              class="down-arrow"
+              width="100"
+              height="100"
+            />
+            <div class="content">
+              <img src="../assets/images/inside_after_3.jpg" alt="" />
+              <p data-i18n="about-us.diy.before-after.hallway-a"></p>
+            </div>
+          </div>
+
+          <div class="blue-container">
+            <div class="content">
+              <img src="../assets/images/inside_after_entrance.jpg" alt="" />
+              <p data-i18n="about-us.diy.front"></p>
+            </div>
+          </div>
+
+          <div class="ivory-container">
+            <div class="content">
+              <img src="../assets/images/outside_1.jpg" alt="" />
+              <p data-i18n="about-us.diy.now.detail"></p>
+
               <a
+                class="ig-btn"
                 href="https://www.instagram.com/make_u_happy916/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
+                <img
+                  src="../assets/icons/instagram.svg"
+                  alt="Instagram icon"
+                  style="max-width: 100px"
+                />
               </a>
-              <p>9-jo 16-chome 24-473, Asahikawa, Hokkaido</p>
-            </div> -->
+              <a
+                class="location-map-button"
+                href="https://maps.app.goo.gl/r3s4brdBbsNuGYCR6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span data-i18n="about-us.diy.now.link"></span>
+                <span aria-hidden="true">▶</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
 
-            <!-- <div class="foot-col icon-credits">
-              <h4>Attributions</h4>
-              <a
-                href="https://www.flaticon.com/free-icon/clipper_3331475"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Hair clipper icon created by Freepik - Flaticon
-              </a>
-              <a
-                href="https://www.flaticon.com/free-icon/baby-boy_3282468"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Baby boy icon created by Freepik - Flaticon
-              </a>
-              <a
-                href="https://www.flaticon.com/free-icon/scissors_2542051"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Scissors icon created by Freepik - Flaticon
-              </a>
-            </div> -->
-          <!-- </div> -->
-        <!-- </div> -->
-        <div class="foot-bottom">
-          <span>&copy; 2026 Brush up Stores</span>
-          <!-- <span>No appointments · Walk-ins only</span> -->
-        </div>
+    <footer>
+      <div class="foot-bottom">
+        <span>&copy; 2026 Brush up Stores</span>
       </div>
     </footer>
-
   </body>
 </html>

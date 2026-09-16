@@ -525,6 +525,8 @@ body {
   background: var(--ivory);
   color: var(--ink);
   overflow-x: hidden;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.7;
 }
 
 h1,
@@ -533,6 +535,7 @@ h3 {
   font-family: "Zen Kaku Gothic New", "Noto Sans JP", sans-serif;
   font-weight: 900;
   letter-spacing: 0.01em;
+  line-height: 1.5;
 }
 a {
   color: inherit;
@@ -607,7 +610,11 @@ nav {
 }
 .navlinks a:hover,
 .navlinks a:focus-visible {
-  color: var(--red);
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0.25em;
 }
 .ig-btn {
   display: flex;
@@ -637,7 +644,7 @@ nav {
   display: flex;
   gap: 28px;
   align-items: center;
-  font-size: clamp(0.8rem, 2.3vw, 1.8rem);
+  font-size: clamp(1rem, 2.3vw, 1.8rem);
 }
 
 @media (width < 930px) {
@@ -783,7 +790,7 @@ section {
   font-family: "Zen Kaku Gothic New", "Noto Sans JP", sans-serif;
   font-size: clamp(2.1rem, 5vw, 4.25rem);
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.3;
   letter-spacing: 0.2em;
   transform: translateX(0.1em);
 }
@@ -1022,7 +1029,7 @@ section {
 
   .menu-note {
     margin-top: 30px;
-    font-size: 0.72rem;
+    font-size: 1rem;
   }
 }
 
@@ -1141,7 +1148,7 @@ section {
   font-family: "Zen Kaku Gothic New", "Noto Sans JP", sans-serif;
   font-size: clamp(2.4rem, 5.2vw, 4.8rem);
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.3;
   letter-spacing: 0.09em;
 }
 
@@ -1207,25 +1214,31 @@ section {
   border-radius: 50%;
 }
 
-.hours-day--weekday {
-  color: #2f8eb7;
+.hours-day--weekday,
+.hours-day--saturday,
+.hours-day--holiday {
+  color: var(--ink);
 }
+
+/* .hours-day--weekday {
+  color: #2f8eb7;
+} */
 
 .hours-day--weekday .hours-dot {
   background: #69b8d6;
 }
 
-.hours-day--saturday {
+/* .hours-day--saturday {
   color: #517889;
-}
+} */
 
 .hours-day--saturday .hours-dot {
   background: #9dbdcc;
 }
 
-.hours-day--holiday {
+/* .hours-day--holiday {
   color: #f0ad13;
-}
+} */
 
 .hours-day--holiday .hours-dot {
   background: var(--yellow);
@@ -1284,10 +1297,10 @@ section {
   display: flex;
   flex-direction: column;
   gap: 7px;
+  font-family: "Zen Kaku Gothic New", "Noto Sans JP", sans-serif;
 }
 
 .hours-instagram-text strong {
-  font-family: "Zen Kaku Gothic New", "Noto Sans JP", sans-serif;
   font-size: clamp(1.25rem, 2vw, 1.8rem);
   font-weight: 900;
 }
@@ -1427,7 +1440,7 @@ section {
   }
 
   .hours-instagram-text span {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -1455,7 +1468,7 @@ footer {
   margin-bottom: 10px;
 }
 .foot-desc {
-  font-size: 13.5px;
+  font-size: 0.875rem;
   color: rgba(255, 252, 245, 0.6);
   max-width: 280px;
 }
@@ -1465,7 +1478,7 @@ footer {
   flex-wrap: wrap;
 }
 .foot-col h4 {
-  font-size: 12px;
+  font-size: 0.875rem;
   letter-spacing: 0.08em;
   color: rgba(255, 252, 245, 0.5);
   margin-bottom: 14px;
@@ -1486,7 +1499,7 @@ footer {
   max-width: 240px;
 }
 .icon-credits a {
-  font-size: 11px;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: rgba(255, 252, 245, 0.5);
 }
@@ -1497,7 +1510,7 @@ footer {
 .foot-bottom {
   display: flex;
   justify-content: center;
-  font-size: 12.5px;
+  font-size: 0.875rem;
   color: rgba(255, 252, 245, 0.45);
   flex-wrap: wrap;
   gap: 10px;
@@ -1553,9 +1566,9 @@ footer {
   background: var(--ivory);
   color: var(--ink);
   font-family: "Noto Sans JP", sans-serif;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.4;
   cursor: pointer;
 }
 .lang-switcher button[aria-pressed="true"] {
@@ -1593,6 +1606,7 @@ footer {
 .menu-main-price,
 .menu-small-price {
   font-size: clamp(1.85rem, 4vw, 4rem);
+  -webkit-text-stroke: 2px var(--ink);
 }
 
 .menu-price-label {

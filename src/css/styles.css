@@ -867,6 +867,7 @@ section {
   border-top: 3px dashed var(--ink);
 }
 
+
 .menu-main-price {
   margin: 0 0 18px;
   color: var(--yellow);
@@ -1034,6 +1035,10 @@ section {
   .menu-price-card h3 {
     margin-top: 18px;
     font-size: 1.75rem;
+  }
+
+  .menu-price-card > h3[data-i18n="menu.buzz.heading"] {
+    margin-bottom: 16px;
   }
 
   .menu-description {
@@ -1574,39 +1579,40 @@ footer {
     align-items: start;
     min-width: 0;
   }
+
+  .menu-price-card > .menu-service-icon {
+    grid-row: 1;
+  }
+
+  .menu-price-card > h3 {
+    grid-row: 2;
+    align-self: center;
+  }
+
+  .menu-price-card > h3[data-i18n="menu.buzz.heading"] {
+    grid-row: 2 / 4;
+    align-self: center;
+    margin: 0;
+  }
+
+  .menu-price-card > .menu-description {
+    grid-row: 3;
+  }
+
+  .menu-price-card > .menu-divider {
+    grid-row: 4;
+  }
+
+  .menu-price-card > .menu-single-price,
+  .menu-price-card > .menu-split-prices {
+    grid-row: 5;
+  }
+
 }
 .menu-price-label {
   min-width: 0;
   max-width: 100%;
   overflow-wrap: anywhere;
-}
-
-.menu-price-card > .menu-service-icon {
-  grid-row: 1;
-}
-
-.menu-price-card > h3 {
-  grid-row: 2;
-  align-self: center;
-}
-
-.menu-price-card > h3[data-i18n="menu.buzz.heading"] {
-  grid-row: 2 / 4;
-  align-self: center;
-  margin: 0;
-}
-
-.menu-price-card > .menu-description {
-  grid-row: 3;
-}
-
-.menu-price-card > .menu-divider {
-  grid-row: 4;
-}
-
-.menu-price-card > .menu-single-price,
-.menu-price-card > .menu-split-prices {
-  grid-row: 5;
 }
 
 .lang-switcher {

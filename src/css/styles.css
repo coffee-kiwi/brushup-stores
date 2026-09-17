@@ -395,7 +395,7 @@ header {
   gap: 24px;
 
   width: min(1200px, 80%);
-  padding: 8px;
+  padding: 12px;
   margin-bottom: 32px;
   background: var(--ivory);
   border: 5px solid var(--ink);

@@ -926,6 +926,22 @@ section {
   text-align: center;
 }
 
+.menu-single-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  width: 100%;
+  align-self: stretch;
+  flex: 1;
+}
+
+.menu-single-price > .menu-price-label,
+.menu-single-price > .menu-main-price {
+  margin: 0;
+}
+
 @media (max-width: 900px) {
   .menu-showcase {
     padding-inline: 5%;

@@ -17,11 +17,12 @@
       "heading": "Kids・Seniors",
       "detail": "Children from age 0 until entering junior high school、and adults aged 65 and over",
       "weekday": "Weekdays",
+      "everyday": "Everyday",
       "holiday": "Weekends & holidays"
     },
     "buzz": {
       "heading": "Buzz cuts and Two-Block cuts only",
-      "detail": "Same simple price every day!"
+      "detail": "Quick and fast"
     },
     "footer": "※All prices include tax."
   },

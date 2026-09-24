@@ -6,7 +6,7 @@ A responsive, bilingual website designed and developed for **Brush Up Stores**, 
 
 [View the Live Website](https://brushup-stores.pages.dev/)
 
-![Brush Up Stores storefront](./src/assets/images/outside_1_s.jpg)
+![Brush Up Stores storefront](./src/assets/images/outside_1_wide.jpeg)
 
 ## 🌟 Highlights
 

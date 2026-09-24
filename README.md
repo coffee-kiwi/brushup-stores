@@ -101,7 +101,7 @@ The user's language preference is saved using `localStorage`, allowing the selec
 
 [Webサイトを見る](https://brushup-stores.pages.dev/)
 
-![Brush Up Stores 店舗外観](./src/assets/images/outside_1_s.jpg)
+![Brush Up Stores 店舗外観](./src/assets/images/outside_1_wide.jpeg)
 
 ## 🌟 特徴
 
